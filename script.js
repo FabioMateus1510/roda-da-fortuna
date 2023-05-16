@@ -16,5 +16,5 @@ const batata = (position) => {
 };
 
 inputs.forEach((input, index) => {
-  input.addEventListener('keydown', () => batata(index));
+  input.addEventListener('keyup', () => batata(index));
 });
